@@ -1,0 +1,5 @@
+
+type Mutation {
+    addNote(text: String!, description: String!): Note
+    addSubNote(text: String!, description: String!, IDParent: String!): SubNote
+}
